@@ -57,7 +57,7 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 3.5vw;
+    font-size: 5vw;
 }
 
 section > p {
@@ -76,7 +76,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.571);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
 }
 
 section.imagem > p {
@@ -101,6 +101,7 @@ section#img02 {
 footer {
     background-image: linear-gradient(to top, black, rgb(72, 72, 72));
     color: white;
+    font-size: 12px;
     text-align: center;
     padding: 10px;
 }
